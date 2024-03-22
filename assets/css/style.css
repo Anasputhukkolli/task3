@@ -1,0 +1,490 @@
+@font-face {
+    font-family: 'Inter-light';
+    src: url('../fonts/Inter-Light.woff2') format('woff2'),
+        url('../fonts/Inter-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter-black';
+    src: url('../fonts/Inter-Black.woff2') format('woff2'),
+        url('../fonts/Inter-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter-medium';
+    src: url('../fonts/Inter-Medium.woff2') format('woff2'),
+        url('../fonts/Inter-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter-regular';
+    src: url('../fonts/Inter-Regular.woff2') format('woff2'),
+        url('../fonts/Inter-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter-thin';
+    src: url('../fonts/Inter-Thin.woff2') format('woff2'),
+        url('../fonts/Inter-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter-bold';
+    src: url('../fonts/Inter-Bold.woff2') format('woff2'),
+        url('../fonts/Inter-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+ul,ol{
+    list-style: none;
+}
+*{
+    text-decoration: none;
+    font-family: 'inter-regular';
+}
+#work{
+    background-color: #dfe3eb;
+    
+}
+#work .content{
+    width: 90%;
+    margin: 0 auto;
+    padding: 48px;
+}
+
+
+#work .content .top{
+    text-align: center;
+    margin-bottom: 28px;
+
+
+}
+#work .content .top .row{
+    width: 5%;
+    margin: 0 auto;
+    border: 1px solid #00f;
+}
+#work .content .top h4{
+    font-size: 28px;
+    font-family: 'inter-bold';
+
+}
+#work .content .bottom ul{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+#work .content .bottom ul li{
+    box-shadow: #00000059 0px 5px 15px;
+    border-radius: 4px;
+    width: 30%;
+    margin-bottom: 22px;
+    cursor: pointer;
+}
+#work .content .bottom ul li img{
+    width: 100%;
+    transition: transform .9s ease;
+
+}
+#work .content .bottom ul li img:hover{
+    transform: scale(1.2);
+
+}
+
+#work .content .bottom ul li .details{
+    padding: 12px;
+}
+#work .content .bottom ul li .details span{
+    font-size: 16px;
+    font-family: 'inter-bold';
+}
+
+#work .content .bottom ul li .details .iconarrow{
+    display: block;
+    width: 8%;
+}
+
+
+#blog{
+    padding: 50px 100px;
+
+}
+#blog .top{
+    text-align: center;
+    padding-bottom: 28px;
+
+}
+#blog .top h1{
+    font-size: 28px;
+    font-family: 'inter-bold';
+
+
+}
+
+#blog .bottom ul.cards{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+#blog .bottom ul li.cardlist{
+    padding: 18px;
+    width:30%;
+}
+#blog .bottom ul .shadow:hover{
+    box-shadow: #00000059 0px 5px 15px;
+    border-radius: 4px;
+    
+}
+#blog .bottom ul li a  {
+    text-decoration: none;
+}
+
+#blog .bottom ul li .top {
+    display: block;    
+}
+#blog .bottom ul li  .top img {
+    width: 100%;
+    display: block;
+}
+
+
+#blog .top .row{
+    width: 5%;
+    margin: 0 auto;
+    border: 1px solid #00f;
+    
+}
+#blog .bottom  .date{
+    font-size: 12px;
+}
+#blog .bottom  h4{
+    font-size:18px ;
+    padding-top: 12px;
+
+}
+#blog .bottom .arrow {
+    font-size: 12px;
+    font-family: 'inter-bold';
+    font-weight: 700;
+}
+
+#blog .bottom .arrow img{
+    width: 28px;
+    padding-left: 8px;
+}
+#blog .bottom ul li.cardlist:last-child{
+    padding: 0;
+}
+#blog .bottom li.cardlist .subcard {
+    padding: 22px 10px;
+    margin-bottom: 12px;
+}
+#blog .bottom li.cardlist .subcard p{
+    font-size: 14px;
+    font-family: 'inter-regular';
+}
+#blog .bottom li.cardlist .subcard .readmore{
+    display: flex;
+    align-items: center;
+    
+}
+#blog .bottom li.cardlist .subcard .readmore h6{
+    font-size: 12px;
+    font-family: 'inter-bold';
+}
+#blog .bottom li.cardlist .subcard  img{
+    width: 22px;
+    margin-top: -10px;
+    margin-left: 10px;
+}
+
+
+/* contact sectionnnnnnnnnnnnn */
+
+#contact{
+    background-image: url("../images/Bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+#contact .shape2{
+    text-align: right;
+    margin-top: -50px;
+    margin-right: 50px;
+}
+#contact img.shape1{
+    width: 20%;
+}
+#contact img.shape2{
+    width: 10%;
+
+}
+#contact .contactlists {
+    display: flex;
+    justify-content: space-between;
+    padding: 5% 12%;
+    margin-top: -200px;
+    z-index: 3;
+}
+#contact .contactlists .contactlist {
+    background-color: #fff;
+    padding: 50px;
+    width: 50%;
+    border-radius: 4px;    
+
+
+}
+#contact .contactlists .contactlist h3 {
+    font-size: 18px;
+    font-family: 'inter-bold';
+}
+#contact .contactlists .contactlist .contactform {
+
+}
+#contact .contactlists .contactlist .contactform form input {
+    outline:none !important;
+    border: none;
+}
+
+#contact .contactlists .contactlist .contactform form {
+
+}
+#contact .contactlists .contactlist .contactform form .row {
+    display: flex;
+    justify-content: space-between;
+}
+#contact .contactlists .contactlist .contactform form .row input {
+    border: 1px solid #b0b0b0;
+    padding: 5px;
+    color: #b0b0b0;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+#contact .contactlists .contactlist .contactform form .row1 input {
+    width: 48%;
+    
+}
+
+#contact .contactlists .contactlist .contactform form .row2 input {
+    width: 100%;
+    
+    
+}
+
+#contact .contactlists .contactlist .contactform form .row3 input {
+    width: 100%;
+    padding-bottom: 100px;
+    
+    
+}
+#contact .contactlists .contactlist .contactform form .row4 button.form {
+    outline: none;
+    border: none;
+    background: #6462e2;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+
+}
+#contact .contactlists .contactlist .contactform form .row4 button.form h6 {
+    font-size: 12px;
+    font-family: 'inter-bold';
+    color: #fff;
+}
+#contact .contactlists .contactlist .contactform form .row4 button.form img {
+    width: 14px;
+    margin-top: -8px;
+    margin-left: 10px;
+}
+#contact .contactlists .contactlist1 {
+    width: 40%;
+    background-color: #fff;
+    padding: 50px;
+    border-radius: 4px;    
+    position: relative;
+}
+#contact .contactlists .contactlist1 h3 {
+    font-size: 18px;
+    font-family: 'inter-bold';
+}
+#contact .contactlists .contactlist1 .touch {
+    display: flex;
+    margin-bottom: 18px;
+}
+#contact .contactlists .contactlist1 .touch .left {
+    margin-right: 12px;
+    background-color: #b8b8e8;
+    padding: 8px;
+    border-radius: 50%;
+}
+#contact .contactlists .contactlist1 .touch .left img {
+    width: 26px;
+}
+
+#contact .contactlists .contactlist1 .touch .right .content {
+    font-size: 14px;
+    font-family: 'inter-bold';
+}
+#contact .contactlists .contactlist1 .links{
+}
+#contact .contactlists .contactlist1 .links ul{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 28px;
+    margin-left: -30px;
+}
+#contact .contactlists .contactlist1 .links ul li{
+    fill: #000;
+    border: .5px solid #b0b0b0;
+    padding: 8px 12px;
+    border-radius: 50%;
+
+}
+
+#contact .contactlists .contactlist1 .links ul li:hover{
+    fill: #fff;
+    background-color: #b8b8e8;
+    border-radius: 50%;
+}
+#contact .contactlists .contactlist1 .dot{
+    position: absolute;
+    top: -10px;
+    right: -19px;
+}
+#contact .contactlists .contactlist1 .dot img{
+    width: 100px;
+}
+#footer{
+    background-color: #fff;
+    text-align: center;
+    padding: 16px;
+}
+#footer .copy{
+    font-size: 12px;
+    color: #b0b0b0;
+}
+#footer .copy{
+    font-weight: bold;
+}
+
+@media screen and (max-width: 800px) {
+    #work .content .top h4{
+        font-size: 18px;
+    }
+    #work .content{
+        width: 95%;
+    }
+    #work .content .bottom ul li {
+        width: 45%;
+    }
+    #work .content .bottom ul li .details {
+        padding: 2px;
+    }
+
+    #work .content .bottom ul li .details span{
+        font-size: 8px;
+    }
+    #blog{
+        padding: 5px ;
+    }
+    #blog .top h1{
+        font-size: 18px;
+    }
+    #blog .bottom ul.cards{
+        flex-wrap: wrap;
+    }
+    #blog .bottom ul li.cardlist{
+        width: 45%;
+    }
+    #blog .bottom .date{
+        font-size: 8px;
+    }
+    #blog .bottom h4{
+        font-size: 12px;
+    }
+    #blog .bottom li.cardlist .subcard p{
+        font-size: 10px;
+    }
+    #blog .bottom li.cardlist .subcard .readmore h6{
+        font-size: 8px;
+    }
+    #blog .bottom li.cardlist .subcard{
+        margin-bottom: 0;
+    }
+    #contact{
+    }
+    #contact .shape2{
+        display: none;
+    }
+    
+    #contact .contactlists{
+        display: block;
+    }
+    #contact img.shape1{
+        display: none;
+    }
+    #contact .contactlists .contactlist{
+        width: 100%;
+    }
+    #contact .contactlists{
+        margin: 0;
+    }
+    #contact .contactlists .contactlist .contactform form .row4 button.form{
+        padding: 8px;
+    }
+    #contact .contactlists .contactlist .contactform form .row4 button.form h6{
+        font-size: 8px;
+    }
+    #contact .contactlists .contactlist1 .dot img{
+        display: none;
+    }
+    #contact .contactlists .contactlist1 {
+        width: 100%;
+        margin-top: 22px;
+    }
+    #contact .contactlists .contactlist1 h3{
+        font-size: 14px;
+    }
+    #contact .contactlists .contactlist1 .touch .left img{
+        width: 22px;
+    }
+    #contact .contactlists .contactlist1 .touch .left{
+        padding: 4px;
+    }
+    #contact .contactlists .contactlist1 .touch .right .content{
+        font-size: 10px;
+        margin-left:12px ;
+    }
+    #contact .contactlists .contactlist1 .links ul li {
+        margin-left: 12px;
+    }
+
+    #contact .contactlists .contactlist1 .links ul li a img{
+        width: 14px;
+    }
+
+}
+
+
+
